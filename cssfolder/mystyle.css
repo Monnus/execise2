@@ -1,0 +1,121 @@
+body{ background-image: url("121951_adapted_landscape_960x960.jpg");
+background-size: cover;
+background-color:steelblue;}
+
+#links{
+  background-color: rgba(255,105,0,0.4);
+  display:grid;
+  grid-template-rows:auto auto auto auto;
+  justify-content: center;
+margin-left: 160px;
+margin-right:160px;
+/*  flex-wrap:wrap;
+  align-items:flex-start;
+  text-decoration: none;*/
+
+}
+
+.link-item{
+  border:solid;
+  margin:3px;
+  width:150px;
+  height:50px;
+  font-size: 20px;
+}
+
+#first-grid{
+background-color: white;
+height: 5em;
+clear:both;
+ display:grid;
+  /*grid-template-columns: auto;*/
+}
+
+.grit-item{
+  background-image: url("../cssfolder/124197_adapted_540x960.jpg");
+  background-size: cover;
+  width:100em;
+  height: 7em;
+  clear:both;
+
+}
+
+.heading {
+  text-decoration:none;
+color: rgba(220,200,0,0.8);
+letter-spacing:5mm;    /*a comment area*/
+font-size:50px;
+border-style: solid;
+background: rgba(0,0,0,0.5);
+}
+
+.just-margin{
+  margin-right:300px;
+  align-items:justify;
+}
+
+  h2 {
+    font-family: serif  monospace;
+  }
+  p{
+    font-family: serif  monospace;
+  }
+
+  a{
+    color: black;
+     font-weight:700;
+    font-size: 12pt;
+    font-family: serif  monospace;
+  }
+a:hover{color:red;}
+    h4 {
+      word-spacing: 0.4cm;
+    }
+
+    .red-span{
+      color:red;}
+  /*p:first-line {text-decoration: capitalize; font-weight:bold;}
+   p:first-letter {fot-size:30px; float:center;}*/
+   p{
+     font-size:20px;
+   font-family: serif  monospace;}
+   a:visited, a:link, a:active {
+     text-decoration: none;
+   }
+
+.liv{ width:100pt;
+  border:solid;
+   border-color:orange;
+   background-color:blue;
+    padding:10px 6in 10px 40px;
+     box-shadow:10px 10px 10px red;
+   }
+
+#hir{
+  float:left ;
+}
+
+img{
+  width:300px;
+   height:300px;
+ float:left;}
+
+ img:hover{
+
+   width: 400px;
+   height: 400px;
+   border:solid;
+   border-color:red;
+   transition: 1s;
+
+ }
+
+
+ul{clear:both;
+  font-size:20pt;
+  list-style-type:square;}
+#does{text-align: center;
+  font-family: serif  monospace;
+  width: 150pt;
+  border: none; padding:5pt;
+   background-position: ;}

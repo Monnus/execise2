@@ -1,0 +1,147 @@
+body{
+  background: rgb(63, 87, 87);
+  font-family: sans-serif, monospace;
+}
+.title{
+  color: rgba(153, 64, 153,0.4);
+  background-color: rgba(255,255,255,0.6);
+  width:15em;
+  height: 2em;
+  margin-bottom:-1em;
+}
+#all-div3{
+ background: skyblue;
+ border:20px;
+ height: 8em;
+ width:100em;
+
+ display: flex;
+ flex-direction:row;
+ flex-wrap:wrap;
+/* justify-content:space-between;*/
+ align-items:center;
+ margin-top: 2em;}
+
+.min2{
+  margin-right:5px;
+  margin-left:5px;
+background-color:steelblue;
+height :90px;
+width :200px;
+text-decoration:none;
+font-size:20pt;
+}
+ /*.bar{
+  color: rgb(170,0,170);
+height  :50px;
+width :60em;
+  border:solid;
+  text-decoration:none;
+}*/
+
+.right-pic{
+
+  background-image: url("../pictures/128753_adapted_540x960.jpg");
+/*  background-attachment: scroll ;*/
+  float:left;
+
+  width:10em;
+  height:220em;
+/*  display:none !important;*/
+margin-right:5em;
+}
+.subheading{
+  color: rgb(153, 64, 153);
+}
+
+.span-col{
+  color:blue;
+}
+
+a{text-decoration: none;
+}
+a:hover{color:red;
+}
+p{text-align:justify;
+}
+
+img{
+  height: 400px;
+  width:300px;
+}
+img:hover{
+    height: 600px;
+width:400px;
+  transition :2s;
+}
+
+#scary-pic{
+  background:rgba(105,235,235,0.6);
+/*  height:400pt;*/
+ border:solid;
+ padding:10px;
+ border-radius:5em;
+ float:right;
+ margin:1px 0em 2em 10em;
+}
+
+#all-div{
+  clear:right;
+  background-color: rgba(105,235,235,0.7) ;
+  width: 61em;
+  border:solid;
+  border-radius:5em;
+  padding-left:10em;
+  padding-right: 5em;
+  margin:10em 10em 0em 10em
+
+
+}
+.container{
+background-color: rgba(255,255,255,0.8)
+;
+width:60em;
+
+}
+
+.contain-item{
+  color:blue;
+  margin:1em;
+}
+
+#all-div1{
+/* background: skyblue;*/
+ border:1px;
+ height: 15em;
+ width:60em;
+ display: flex;
+ flex-direction:row;
+ flex-wrap:wrap;
+ justify-content:space-between;
+ align-items:center;
+ margin-top: 2em;
+
+}
+
+.contain-item2{
+  border-radius:100%;
+  padding:6px;
+  width:2em;
+  background: rgba(255,255,255,0.8);
+  font-size:20pt;
+  margin: 10px;
+}
+
+#all-div2{
+  background-color: rgba(105,235,235,0.7);
+  width: 30em;
+  border:solid;
+  border-radius:5em;
+  padding-left:5em;
+  padding-right: 5em;
+  margin-left :11em;
+}
+.container1{
+background-color: rgba(255,255,255,0.7);
+width:25em;
+padding-right:1em
